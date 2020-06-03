@@ -1,6 +1,6 @@
 # 2020_Grant_etal_NGEO
 
-Choose your title wisely. Below the title, write a short description of the code (2-3 lines max).
+Scripts used in the analyis of Grant et al 2020.
 
 ## To install
 Bash scripts require CDO and NCO binaries.
