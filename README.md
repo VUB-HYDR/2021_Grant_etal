@@ -1,4 +1,4 @@
-# 2020_Grant_etal_NGEO
+# 2020_Grant_etal
 
 Scripts used in the analyis of Grant et al 2020.
 
