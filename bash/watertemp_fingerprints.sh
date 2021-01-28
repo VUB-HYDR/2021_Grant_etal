@@ -315,9 +315,9 @@ for force in "${forcing[@]}"; do
             
         mean_calculator $workDIR/${model_fname}_step3_${rcp}_${force}.nc $workDIR/${model_fname}_${var}_${force}_${rcp}_step4.nc
         attribute_setter $workDIR/${model_fname}_${var}_${force}_${rcp}_step4.nc $workDIR/${model_fname}_${force}_${rcp}_${var}_${prod}_1981_2019.nc
-        masker $workDIR/${model_fname}_${force}_${rcp}_${var}_${prod}_1981_2018.nc $outDIR/${model_fname}_${force}_${rcp}_${var}_${prod}_1981_2019.nc
-        cdo -O timmean $outDIR/${model_fname}_${force}_${rcp}_${var}_${prod}_1981_2018.nc $outDIR/${model_fname}_${force}_${rcp}_${var}_${prod}_timmean_1981_2019.nc
-        cdo -O fldmean $outDIR/${model_fname}_${force}_${rcp}_${var}_${prod}_1981_2018.nc $outDIR/${model_fname}_${force}_${rcp}_${var}_${prod}_fldmean_1981_2019.nc
+        masker $workDIR/${model_fname}_${force}_${rcp}_${var}_${prod}_1981_2019.nc $outDIR/${model_fname}_${force}_${rcp}_${var}_${prod}_1981_2019.nc
+        cdo -O timmean $outDIR/${model_fname}_${force}_${rcp}_${var}_${prod}_1981_2019.nc $outDIR/${model_fname}_${force}_${rcp}_${var}_${prod}_timmean_1981_2019.nc
+        cdo -O fldmean $outDIR/${model_fname}_${force}_${rcp}_${var}_${prod}_1981_2019.nc $outDIR/${model_fname}_${force}_${rcp}_${var}_${prod}_fldmean_1981_2019.nc
 
     done
 done
