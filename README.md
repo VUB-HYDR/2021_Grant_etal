@@ -15,7 +15,7 @@ For the python code, parts 1-4 are assigned to figures 1-4 in the article. Each 
 Part 2 processes the results of our detection and attribution analysis using adapted python code from [pinplex](https://github.com/pinplex/PyDnA).
 
 ## Versions
-Version 0.1.0 - June 2020  
+Version 0.1.0 - August 2021  
 
 
 ## License
