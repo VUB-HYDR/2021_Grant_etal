@@ -6,17 +6,6 @@ Created on Mon Jan 18 10:03:59 2021
 @author: luke
 """
 
-# for ice and watertemp esa_cci netcdfs:
-    # read in mask of ESA CCI for valid sample locations
-    # extract series from ESA CCI and ERA5L with locations
-    # use comparison processing similar to glrp_v3.py 
-    
-    
-# saturday; add shit to interpolate nas and limit lakes to those with greater than 15 years?
-# possible to do the time limit on original das before tyhe means? same with interp?
-
-# have done timstep selection of sim via obs w/ where + interpolate
-# can also do nan timsum on obs subsets to find which pixels have greater than 10-15 time steps (try on sunday)
 
 # =============================================================================
 # import
