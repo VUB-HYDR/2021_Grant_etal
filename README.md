@@ -1,6 +1,6 @@
-# 2020_Grant_etal
+# 2021_Grant_etal
 
-Scripts used in the analyis of Grant et al 2020.
+Scripts used in the analyis of Grant et al 2021.
 
 ## To install
 Bash scripts require CDO and NCO binaries.
