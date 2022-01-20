@@ -437,7 +437,7 @@ def da_main(y,X,ctl,nb_runs_x,reg,cons_test,formule_ic_tls,trunc,ci_bnds):
     half_1_end = int(np.floor(nb_runs_ctl / 2))
     Z1 = Z[:,:half_1_end]
     if nb_runs_ctl % 2 == 0:
-        Z2 = Z[:,half_1_end]
+        Z2 = Z[:,half_1_end:]
     else:
         Z2 = Z[:,half_1_end+1:]
     
